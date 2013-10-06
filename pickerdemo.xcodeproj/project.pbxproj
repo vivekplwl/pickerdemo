@@ -19,6 +19,7 @@
 		BE137B041801A449000FFA9A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE137B031801A449000FFA9A /* ViewController.m */; };
 		BE137B071801A44A000FFA9A /* ViewController_iPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE137B051801A44A000FFA9A /* ViewController_iPhone.xib */; };
 		BE137B0A1801A44A000FFA9A /* ViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE137B081801A44A000FFA9A /* ViewController_iPad.xib */; };
+		BE137B111801A479000FFA9A /* Countries.plist in Resources */ = {isa = PBXBuildFile; fileRef = BE137B101801A479000FFA9A /* Countries.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		BE137B031801A449000FFA9A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		BE137B061801A44A000FFA9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPhone.xib; sourceTree = "<group>"; };
 		BE137B091801A44A000FFA9A /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController_iPad.xib; sourceTree = "<group>"; };
+		BE137B101801A479000FFA9A /* Countries.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Countries.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 				BE137AF91801A449000FFA9A /* AppDelegate.h */,
 				BE137AFA1801A449000FFA9A /* AppDelegate.m */,
 				BE137B021801A449000FFA9A /* ViewController.h */,
+				BE137B101801A479000FFA9A /* Countries.plist */,
 				BE137B031801A449000FFA9A /* ViewController.m */,
 				BE137B051801A44A000FFA9A /* ViewController_iPhone.xib */,
 				BE137B081801A44A000FFA9A /* ViewController_iPad.xib */,
@@ -167,6 +170,7 @@
 				BE137B011801A449000FFA9A /* Default-568h@2x.png in Resources */,
 				BE137B071801A44A000FFA9A /* ViewController_iPhone.xib in Resources */,
 				BE137B0A1801A44A000FFA9A /* ViewController_iPad.xib in Resources */,
+				BE137B111801A479000FFA9A /* Countries.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

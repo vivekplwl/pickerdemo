@@ -17,6 +17,16 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"Countries" ofType:@"plist"];
+    NSDictionary *mydic = [[NSDictionary alloc] initWithContentsOfFile:path];
+    NSLog(@"%@",mydic);
+    static NSArray *_countryNames = nil;
+    if (!_countryNames)
+    {
+        _countryNames = [[[mydic allValues] sortedArrayUsingSelector:@selector(caseInsensitiveCompare:)] copy];
+    }
+    NSLog(@"%@",_countryNames);
 	// Do any additional setup after loading the view, typically from a nib.
 }
 
